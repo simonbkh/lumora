@@ -1,1 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test.db
+
+# Environment
 .env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.override.yml
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Ruff / Black
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db
